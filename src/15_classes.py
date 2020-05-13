@@ -9,6 +9,10 @@
 # YOUR CODE HERE
 
 
+def init(name, lat, lon){
+    super(LatLon)
+}
+
 # Make a class Geocache that can be passed parameters `name`, `difficulty`,
 # `size`, `lat`, and `lon` to the constructor. What should it inherit from?
 
@@ -17,6 +21,7 @@
 # Make a new waypoint and print it out: "Catacombs", 41.70505, -121.51521
 
 # YOUR CODE HERE
+
 
 # Without changing the following line, how can you make it print into something
 # more human-readable? Hint: Look up the `object.__str__` method
